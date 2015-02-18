@@ -1,0 +1,138 @@
+body{
+font-family: 'Raleway', sans-serif;
+font-size: 80%;
+color: white;
+background-color: grey;
+}
+
+#banner{
+display: block;
+width: 75%; height: auto;
+margin-left: auto; margin-right: auto;
+}
+
+#back_grey{
+width: 75%; height: 70px; 
+background: #2F2F2F;
+margin-left: auto; margin-right: auto;
+}
+
+#sitename p{
+color: white;
+font-weight: bold;
+font-size: 3.1em;
+padding-left: 15px;
+margin-top: 11px;
+}
+
+#sitename {
+height: 70px;
+width: 15%;
+display: inline-block;
+}
+
+#menu{
+width: 35%; height: 70px;
+position: relative;
+display: inline-block;
+float: right;
+background-color: #2f2f2f;
+
+}
+
+#menu ul{
+margin-top: 33px;
+}
+
+#menu ul li{
+display: inline-block;
+font-size: 14px;
+padding-right: 20px;
+
+}
+
+.title{
+text-align: left;
+font-style: italic;
+}
+
+#category{
+font-size: 2.5em;
+font-family: Segoe UI Light, Segoe UI;
+}
+
+#content{
+width: 75%; height: 699px;
+background-color: #F7F7F7; border: none;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+#big{
+width: 35%; 
+float: right;
+}
+
+#content_wrapper{
+height: 685px; padding:25px;  border: none;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.bg-red {
+background-color: #CD4539; 431243
+}
+
+.bg-green {
+background-color:#4E8E68;
+}
+
+.bg-purple { 
+background-color: #613361;
+}
+
+.bg-blue { 
+background-color: #323148;
+}
+
+
+
+#content img{
+float: left; 
+width: 65%; height: auto;}
+
+#content_wrapper span{
+float: left;
+width: 30em;
+}
+
+a:link{
+text-decoration: none;
+color: white;
+}
+a:visited{
+color: white;
+}
+
+a:hover{
+color: grey;
+}
+
+#mainimg{
+float: left; 
+margin-left: 30px;
+width: 1040px; height: auto;
+position: relative;
+top: -58px; left: 30px;
+}
+
+*#footer{
+height: 30px;
+width: 75%;
+background: #2F2F2F;
+margin-left: auto; margin-right: auto;
+}
+
+
+
