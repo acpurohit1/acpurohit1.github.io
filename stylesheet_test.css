@@ -61,7 +61,7 @@ font-size: 2.5em;
 }
 
 #content{
-width: 75%; height: 699px;
+width: 75%; height: 747px;
 background-color: #F7F7F7; border: none;
 position: relative;
 margin-left: auto;
@@ -83,7 +83,7 @@ overflow-x: hidden;
 }
 
 .bg-red {
-background-color: #CD4539; 431243
+background-color: #CD4539; 
 }
 
 .bg-green {
