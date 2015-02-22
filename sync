@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+
+Dir.chdir(File.dirname(__FILE__)) do 
+    if `git ls-files -mo`.size != 0 then
+        `git add -A`
+        `git commit -m 'alex bot'`
+        `git push`
+    end
+end
