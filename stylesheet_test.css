@@ -1,159 +1,299 @@
-body{
-font-family: 'Raleway', sans-serif;
-font-size: 80%;
-color: white;
-background-color: grey;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #383737;
 }
 
-#banner{
-display: block;
-width: 75%; height: auto;
-margin-left: auto; margin-right: auto;
+a {
+    text-transform: uppercase;
 }
 
-#back_grey{
-width: 75%; height: 70px; 
-background: #2F2F2F;
-margin-left: auto; margin-right: auto;
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 70%;
+    width: 50%;
+    line-height: 140%;
+    margin-bottom: 20px;
 }
 
-#sitename p{
-color: white;
-font-weight: bold;
-font-size: 3.1em;
-padding-left: 15px;
-margin-top: 11px;
+h1 {
+    font-weight: 300;
+    font-size: 250%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
-#sitename {
-height: 70px;
-width: 15%;
-display: inline-block;
+h2 {
+    font-weight: 300;
+    font-size: 100%;
+    margin-bottom: 20px;
 }
 
-#menu{
-height: 70px;
-position: relative;
-display: inline-block;
-float: right;
-background-color: #2f2f2f;
+h3 {
+    font-weight: 400;
+    font-size: 80%;
+}
+
+p, h1, h2, h3 {padding-left: 40px;}
+
+
+.important {
+        font-weight: 200;
+        font-size: 50px;
+    }
+        
+.blue {color: blue;}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    background-color: #4e4d4d;
+}
+
+.row {
+    margin: 0 auto; 
+    max-width: 1300px;
+}
+
+/* ==========BANNER============ */
+.banner {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -8px;
+}
+
+/* ==========MENU============ */
+.mainNav {
+    height: 50px;
+    background-color: #EDE1AF;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.mainNav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 70%;
+    margin-top: 8px;
+}
+
+.mainNav ul a {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 7px;
+    text-decoration: none;
+}
+
+.mainNav ul a:visited,
+.mainNav ul a:link {
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+.mainNav ul a:hover,
+.mainNav ul a:active {
+    border-bottom: 1px solid #8E7F60;
 
 }
 
-#menu ul{
-margin-top: 33px;
+a:hover, a:visited {
+    color: #000;
 }
 
-#menu ul li{
-display: inline-block;
-font-size: 14px;
-padding-right: 20px;
-
+.submenu {
+    padding: 0;
+    position: absolute;
+    list-style: none;
+    z-index: 1;
+    background-color: #EDE1AF;
+    width: 100px;
+    display: none;
 }
 
-.title{
-text-align: left;
-font-style: italic;
+.submenu li {    
+    display: block;
+    font-size: 100%;
 }
 
-#category{
-font-size: 2.5em;
-}
-
-#content{
-width: 75%; height: 747px;
-background-color: #F7F7F7; border: none;
-position: relative;
-margin-left: auto;
-margin-right: auto;
-}
-
-#big{
-width: 35%; 
-float: right;
-}
-
-#content_wrapper{
-height: 100%;
-box-sizing: border-box;
-padding:25px;
-border: none;
-overflow-y: auto;
-overflow-x: hidden;
-}
-
-.bg-red {
-background-color: #CD4539; 
-}
-
-.bg-green {
-background-color:#4E8E68;
-}
-
-.bg-purple { 
-background-color: #613361;
-}
-
-.bg-blue { 
-background-color: #323148;
-}
-
-
-
-.bigImage{
-  float: left; 
-  width: 65%;
-  height: 100%;
-  background-size: cover;
-}
-
-#marketImage {
-  background-image: url('Market.png');
-}
-
-#martiniImage {
-  background-image: url('Martini.png');
-}
-
-#outdoorImage {
-  background-image: url('VerticalKayak.png');
-}
-
-#plateImage {
-  background-image: url('plate.png');
-}
-
-#content_wrapper span{
-float: left;
-width: 30em;
-}
-
-a:link{
-text-decoration: none;
-color: white;
-}
-a:visited{
-color: white;
-}
-
-a:hover{
-color: grey;
-}
-
-#mainimg{
-float: left; 
-margin-left: 30px;
-width: 1040px; height: auto;
-position: relative;
-top: -58px; left: 30px;
-}
-
-#footer{
-height: 50px;
-width: 75%;
-background: #2F2F2F;
-margin-left: auto; margin-right: auto;
+.submenu a {
+    display: block;
+    float: left;
 }
 
 
+/* ==========BANNER============ */
 
+.img-div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-div img {
+    width: 25%;   
+    float: left;
+    margin-top: -1px;
+    
+}
+
+.food-div {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #EDE1AF;
+    margin-top: -35px;
+    
+}
+
+/* ==========TEXT============ */
+
+.section-dark-yellow {
+    background-color: #e2d6ab;
+
+}
+
+.section-light-yellow {
+    background-color: #efe3b6;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    padding: 30px 0 20px 0;
+    
+}
+
+/*========STRIP============*/
+
+
+.ul-strip {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+
+}
+
+.ul-strip li {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin: -0px 0 0 0;
+
+}
+
+.ul-strip img {
+    width: 100%;
+    height: auto;  
+    opacity: 0.9;
+    -webkit-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    transform:scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.ul-strip img:hover {
+    -webkit-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    transform:scale(1.03);
+    opacity: 1;
+    
+}
+
+.section-strip {
+    padding: 0;
+}
+
+/* ==========TOP PICKS============ */
+.plan-box {
+    background-color: #e2d6ab;
+    border-radius: 2px;
+    text-align: left;
+    transition: background-color 0.2s;
+}
+
+.plan-box:hover,
+.plan-box:active{
+    background-color: #ebe5cd;
+}
+
+
+.plans-category {
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #edecec;
+    text-align: left;
+    
+}
+
+.div-plans {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+}
+
+.plans-winner {
+    background-color: #efe3b6;
+}
+
+.plans-winner p {
+    width: 100%;
+    line-height: 140%;
+    margin-bottom: 0px; 
+    padding: 10px 0 0 27px;
+}
+
+.title-winner {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.div-remaining {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    padding-top: 40px;
+    
+}
+
+.plan-box div h3 {
+    padding: 0;
+    font-weight: 300;
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+
+.plans-category img {
+    width: 15%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.red {
+    color: red;
+}
+
+/*============FOOTER============*/
+.footer p {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer a {
+    text-transform: lowercase;
+}
