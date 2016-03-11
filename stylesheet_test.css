@@ -232,7 +232,7 @@ section {
 
 .plans-category {
     padding: 10px 0px 10px 10px;
-    border-bottom: 1px solid #edecec;
+    /*border-bottom: 1px solid #edecec;*/
     text-align: left;
     
 }
